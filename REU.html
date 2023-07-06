@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>REU Project</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" media="(max-width: 640px)" href="main-640px.css" />
+    <link rel="stylesheet" media="(min-width: 640px)" href="main.css" />
+    <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+
+<nav>
+    <a href="index.html"><strong>Home</strong></a>
+    <a href="Research.html"><strong>Research</strong></a>
+    <a href="Teaching.html"><strong>Teaching</strong></a>
+    <a href="Conferences.html"><strong>Conferences</strong></a>
+    <a href="REU.html"><strong>REU Project</strong></a>
+</nav>
+
+<div class="MainFrame">
+<section id="Current">
+    <h1>REU Project: Picard Groups of Mackey functors</h1>
+<div class="Teaching">
+  <article>
+    <header>
+      <h1>
+        Concrete description of Picard Mackey functors
+      </h1>
+    </header>
+    <p>
+      The Picard group is an important invariant of a symmetric monoidal category, with objects in it playing a distinguished computational role. Recent work in equivariant homotopy has reiterated that we should always work not just with $G$-objects but also with $H$-objects for any subgroup $H$ of $G$. Applying this to the Picard group of Mackey functors gives a natural Picard coefficient system. Use of the Hoyer-Mazur norms lets us further refine this, giving transfer maps in the Picard coefficient system in good cases. In general, there are very few explicit examples. The warm-up case of cyclic $p$-groups was done as a proof-of-concept for this object, but this is the end of the list. This REU project entails computing the Picard Mackey functor for various families of groups, including 
+    </p>
+    <ul>
+      <li>Dihedral groups</li>
+      <li>Metacyclic groups</li>
+      <li>binary polyhedral groups</li>
+      <li>Symmetric groups</li>
+    </ul>
+    <p>
+      The plan is to build an atlas of results for these, with complete descriptions analogous to Loyd's description for $C_p$ (available on the <a href="https://arxiv.org/abs/1710.08560">arxiv</a>).
+    </p>
+  </article>
+  
+  <article>
+      <header>
+          <h1>What are "Picard groups"?</h1>
+      </header>
+      <p>
+        If $R$ is a general commutative ring, then we have no reason to believe that a general $R$-module (even a finitely generated one) is nice. Over a field, every module is free in the sense that any vector space is isomorphic to a sum of copies of the ground field. Not every $\mathbb Z$-module is a free one, and for more complicated rings, the modules get even worse.<br /><br />
+        
+        In general, free modules are those over which we have the most control, and summands of free modules are almost as nice. Over fields (or more generally PIDs), any summand of a free module is again free. Over arbitrary commutative rings, this is no longer the case. We call a module ``projective'' if it is a summand of a free module. The set of isomorphism classes of finitely generated projective modules forms an important invariant of the ring, and since direct sums and tensor products of projectives are projective, it naturally inherits the structure of a commutative, associative, unital semi-ring (a ring without additive inverses). The unit for the multiplication is just $R$ itself, viewed as an $R- module.<br /><br />
+        
+        The "Picard group" of $R$ is the set of isomorphism classes of projective modules $M$ such that there exists a projective module $M'$ with $M\otimes_{R}M'\cong R$. In other words, these are the units in this semi-ring. The tensor product operation makes this into an abelian group, and any map of commutative rings $R\to R'$ induces a map of Picard groups.<br /><br />
+        
+        In defining this, we only used the tensor product operation. This gives a way to work more generally. Given an arbitrary symmetric monoidal category $\mathcal C$, the Picard group of $\mathcal C$ is the set of isomorphism classes of objects $X$ such that there is an object $Y$ and an isomorphism $X\otimes Y\cong 1$, where $1$ is the symmetric monoidal unit. Any symmetric monoidal functor will induce a homomorphism on Picard groups.
+      </p>
+  </article>
+
+  <article>
+      <header>
+          <h1>Pragmatics</h1>
+      </header>
+      <p>Given the number of desired computations, many students can participate. There are two kinds of participation available:</p>
+      <ul>
+        <li>Students make receive course credit, enrolling in Math 199. All current UCLA undergraduates are welcome to participate in this way.</li>
+        <li>American citizens or permanent residents can be paid as undergraduate research assistants. This is money coming from an NSF grant, hence the stipulation.</li>
+      </ul>
+      <p>Math department policy forbids receiving both course credit and payment. Students should indicate their preference at the time of applying.</p>
+  </article>
+
+</div>
+</section>
+
+</div>
+
+</body>
+</html>

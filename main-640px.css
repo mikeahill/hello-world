@@ -1,0 +1,316 @@
+/* Clear Any Formatting */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+address, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+strong {
+  font-weight: bold;
+}
+
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	line-height: 1;	
+	margin: 0px;
+	padding: 0px;
+	background: #FFFFFF fixed;
+}
+
+/* Headings */
+
+h1 {
+ font: bold 120% Arial, Helvetica, sans-serif;
+ color: black;
+ margin: 5px;
+ padding: 5px;
+}
+
+h2 {
+ font: bold 100% Arial, Helvetica, sans-serif;
+ color: black;
+ margin: 0px 0px 0px 0px;
+ padding: 0px;
+}
+
+h3{
+ font: bold 100% Arial, Helvetica, sans-serif;
+ color: black;
+ margin: 0px;
+ padding: 0px;
+}
+
+h4{
+ font: 100% Arial, Helvetica, sans-serif;
+ color: black;
+ margin: 0px;
+ padding: 0px;
+}
+
+h5{
+ font: 100% Arial, Helvetica, sans-serif;
+ color: black;
+ margin: 0px;
+ padding: 0px;
+}
+
+/* Page Elements */
+
+nav
+{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	background:#C3D7EE;
+	border-top-left-radius:5pt;
+	border-top-right-radius:5pt;
+	border-bottom-left-radius:5pt;
+	border-bottom-right-radius:5pt;
+	margin:5px;
+	justify-content: center;
+	text-align: center;
+}
+
+nav a {
+	font-size: 16px;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#current a
+{
+    background: #A39A89;
+    border-top-left-radius:5pt;
+    border-top-right-radius:5pt;
+}
+
+nav a:hover {
+	background-color: #8BB8E8;
+	color:black;
+	border-top-left-radius:5pt;
+	border-top-right-radius:5pt;
+	border-bottom-left-radius:5pt;
+	border-bottom-right-radius:5pt;
+
+}
+
+
+.MainFrame
+{
+ /*   margin-left: 20%;
+	width: 60%; */
+	float:left;
+    background: white;
+	color: black;
+}
+
+.ContactInfo {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.ContactInfo img
+{
+  float:right;
+  margin-left:4px;
+  margin-right:15%;
+	border-top-left-radius:5pt;
+	border-top-right-radius:5pt;
+	border-bottom-left-radius:5pt;
+	border-bottom-right-radius:5pt;
+
+}
+    
+/* Paragraph Rules */
+p
+{
+    margin: 0px;
+}
+
+
+.MainFrame img
+{
+    float:right;
+    margin-left:4px;
+    margin-right:4px;
+}
+
+/* Anchor Rules */
+
+a:hover
+{
+    color:#0062A0;
+}
+
+a
+{
+    color: #2A69A6;
+    text-decoration:none;
+}
+
+/* Table Rules */
+
+table 
+{
+    background-color: #2774AE;
+    border: 1px solid #003B5C;
+    empty-cells:show;
+    font-size:100%;
+    margin:20px 0 20px 0;
+    padding: 4px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+table thead th
+{
+    border:0px;
+    border-bottom:1px solid #003B5C;
+    color: #FFFFFF;
+    font-size:inherit;
+    padding: 3px 3px;
+    text-align: left;
+}
+
+table tbody tr:nth-child(even)
+{
+    background-color: #8BB8E8;
+	color: black;
+}
+
+table tbody tr:nth-child(odd)
+{
+    background-color: #C3D7EE;
+	color:black;
+}
+
+table tbody td
+{
+    padding: 2px;
+    border: 0;
+}
+
+table tbody tr:nth-child(odd) a
+{
+    color: #003B5C;
+    text-decoration:none;
+}
+
+
+table tbody tr:nth-child(even) a
+{
+    color: #003B5C;
+    text-decoration:none;
+}
+
+tr:nth-child(odd):hover a
+{
+    color:black;
+}
+
+tr:nth-child(even):hover a
+{
+    color:black;
+}
+
+.Papers, .Teaching, .Home, .Conferences {
+    background: #2774AE;
+	color: white;
+/*	border-top-left-radius:5pt;*/
+	border-top-right-radius:5pt;
+	border-bottom-left-radius:5pt;
+	border-bottom-right-radius:5pt;
+	padding: 5px;
+}
+
+section {
+	float:left;
+	display:block;
+	background-color:white;
+	margin: 5px;
+	width: 90%;
+
+}
+
+section h1 {
+	display: inline;
+	background: #2774AE;
+	color: white;
+	border-top-left-radius:5pt;
+	border-top-right-radius:5pt;
+	margin: 10px 5px 0px 0px;
+}
+
+article {
+	display:block;
+	background-color: white;
+	color:black;
+	border-top-left-radius:5pt;
+	border-top-right-radius:5pt;
+	border-bottom-left-radius:5pt;
+	border-bottom-right-radius:5pt;
+	margin: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+
+}
+
+article:nth-child(even) {
+	    background-color: #C3D7EE;
+}
+
+article header {
+	display:block;
+}
+
+article header a {
+	display:block;
+	margin: 5px;
+}
+
+article h1 {
+ font: bold 100% Arial, Helvetica, sans-serif;
+ color: black;
+ background: inherit;
+ margin: 0px;
+ padding: 0px;
+}
+
+article h2 {
+	font: 100% Arial, Helvectica, san-serif;
+	color: black;
+	display: block;
+}
+
+article p {
+	margin: 5px 0px 0px 5px;
+}
+
+article ul {
+	margin-left: 10px;
+}
+
+article ul li {
+	margin-left: 5px;
+}
+
+tr:nth-child(even) {
+	background-color: #C3D7EE;
+}
+
